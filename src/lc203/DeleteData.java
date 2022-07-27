@@ -13,10 +13,10 @@ public class DeleteData {
         int deleteNum = 1;
         Solution solution = new Solution();
         ListNode delete = solution.delete(listNode,deleteNum);
-        while (delete != null) {
-            System.out.println(delete.value);
-            delete = delete.next;
-        }
+//        while (delete != null) {
+//            System.out.println(delete.value);
+//            delete = delete.next;
+//        }
     }
 }
 
