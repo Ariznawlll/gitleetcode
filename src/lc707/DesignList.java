@@ -32,7 +32,7 @@ class MyLinkedList {
         while (index < 0 || index > dummyNode.value) {
             return -1;
         }
-
+        return 0;
     }
 
     public void addAtHead(int val) {
