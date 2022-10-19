@@ -21,6 +21,7 @@ public class BubbleSort {
 
 class Solution{
     public void sort(int a[]) {
+
         for (int i = 0; i < a.length; i++) {  //趟数
             for (int j = 0; j < a.length - i - 1; j++) {
                 if (a[j] > a[j + 1]) {
