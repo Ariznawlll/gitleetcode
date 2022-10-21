@@ -20,7 +20,7 @@ public class SimpleSelectSort {
 }
 
 //简单选择排序的思想，对于一个数组，从第一个开始依次比较此数与数组中的大小关系，选择一个最小的
-//放在最前面，知道达到数组的长度即可
+//放在最前面，直到达到数组的长度即可
 class Solution{
     public void simpleSelectSort(int a[]) {
         for (int i = 0; i < a.length; i++) {  //趟数
