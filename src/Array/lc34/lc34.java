@@ -1,4 +1,4 @@
-package Array;
+package Array.lc34;
 
 public class lc34 {
     public static void main(String[] args) {
