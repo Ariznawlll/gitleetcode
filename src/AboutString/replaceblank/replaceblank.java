@@ -1,4 +1,4 @@
-package AboutString;
+package AboutString.replaceblank;
 
 public class replaceblank {
     public static void main(String[] args) {
